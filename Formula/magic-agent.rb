@@ -1,10 +1,10 @@
 class MagicAgent < Formula
-  desc "Natural-language editing CLI for DaVinci Resolve"
+  desc "CLI for DaVinci Resolve scripting operations"
   homepage "https://github.com/decocereus/magic-agent"
   url "https://github.com/decocereus/magic-agent/releases/download/v0.2.0/magic-agent-v0.2.0-macos.tar.gz"
   sha256 "228879820ceada9ed09bc4be0c16b0724dd34c324db0a83401a87fa3de7dba02"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   depends_on :macos
   depends_on "python@3.12"
@@ -17,12 +17,7 @@ class MagicAgent < Formula
     <<~EOS
       magic-agent requires:
         - DaVinci Resolve Studio 20.0+ (scripting requires Studio version)
-        - An AI API key (Anthropic, OpenAI, or OpenRouter)
-
-      Configure your API key:
-        export ANTHROPIC_API_KEY="sk-ant-..."
-
-      Or create ~/.config/magic-agent/config.toml
+        - Python 3.10+ (brew installs python@3.12)
 
       Check your setup with:
         magic-agent doctor --pretty
