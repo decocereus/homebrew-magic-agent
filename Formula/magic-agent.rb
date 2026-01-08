@@ -1,8 +1,8 @@
 class MagicAgent < Formula
   desc "Natural-language editing CLI for DaVinci Resolve"
   homepage "https://github.com/decocereus/magic-agent"
-  url "https://github.com/decocereus/magic-agent/releases/download/v0.1.0/magic-agent-v0.1.0-macos.tar.gz"
-  sha256 "7710b855b639219ade409dc22a5142d43d85034943a6b89cb587ff8fc3889502"
+  url "https://github.com/decocereus/magic-agent/releases/download/v0.2.0/magic-agent-v0.2.0-macos.tar.gz"
+  sha256 "228879820ceada9ed09bc4be0c16b0724dd34c324db0a83401a87fa3de7dba02"
   license "MIT"
   version "0.1.0"
 
