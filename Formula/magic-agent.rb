@@ -11,7 +11,7 @@ class MagicAgent < Formula
 
   def install
     bin.install "magic-agent"
-    (pkgshare/"python").install "resolve_bridge.py"
+    pkgshare.install "resolve_bridge.py"
   end
 
   def caveats
