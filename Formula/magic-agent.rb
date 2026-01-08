@@ -2,7 +2,7 @@ class MagicAgent < Formula
   desc "CLI for DaVinci Resolve scripting operations"
   homepage "https://github.com/decocereus/magic-agent"
   url "https://github.com/decocereus/magic-agent/releases/download/v0.4.0/magic-agent-v0.4.0-macos.tar.gz"
-  sha256 "1d244a14fb934c6b5dafe30640f396a8129b3713819cddad7f8714791b71a0e3"
+  sha256 "5c7f0a655769856e006d2cf88561e60b49588865de3562d8d134b1aa6d3d2005"
   license "MIT"
   version "0.4.0"
 
